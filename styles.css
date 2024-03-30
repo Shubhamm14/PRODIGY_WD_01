@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: #fff;
+    /* Add any other styles to indicate active state */
+  }
+  
+  
+  .content {
+    padding-top: 60px; /* Adjust according to the height of your navigation bar */
+    height: 2000px; /* Just for demonstration, so we can scroll */
+  }
+  
